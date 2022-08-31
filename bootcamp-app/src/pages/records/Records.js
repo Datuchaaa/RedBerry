@@ -8,7 +8,7 @@ function Records() {
         <section className = "record-section">
          <div className = "container">
             <div className = "back-btn" >
-                <div className = "array" style = {{backgroundImage: `url(./images/Vector.png)`}} ></div>
+                <div className = "array" style = {{backgroundImage: `url(./images/VectoR.png)`}} ></div>
             </div>
             <div className = "title">
                     <div className = "staf-info button btn-active">

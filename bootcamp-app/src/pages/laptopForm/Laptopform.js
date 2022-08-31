@@ -8,7 +8,7 @@ function Laptopform() {
         <section className = "laptopform-section">
             <div className = "container">
             <div className = "back-btn" >
-                <div className = "array" style = {{backgroundImage: `url(./images/Vector.png)`}} ></div>
+                <div className = "array" style = {{backgroundImage: `url(./images/VectoR.png)`}} ></div>
             </div>
              <div className = "nav-wrapper">
                 
