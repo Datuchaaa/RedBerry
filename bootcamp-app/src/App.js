@@ -5,6 +5,7 @@ import Add from './pages/add/Add'
 import Records from './pages/records/Records'
 import Laptopform from './pages/laptopForm/Laptopform';
 import Finish from './pages/finish/Finish';
+import Internalpage from './pages/internalpage/Internalpage';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Add/> */}
       {/* <Records/> */}
       {/* <Laptopform/> */}
-      <Finish/>
+      {/* <Finish/> */}
+      <Internalpage/>
     </div>
   );
 }
