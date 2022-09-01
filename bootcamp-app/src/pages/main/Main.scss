@@ -1,30 +1,33 @@
-.container{
-    width: 1920px;
-    margin: auto;
-  }
+
   .main-section{
     p{
-      font-size: 20px;
+      font-size: 12px;
       color: #FFFFFF;
+    }
+    .main-items-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 110%;
     }
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
     background-color: #FFFFFF;
     width: 100%;
-    height: 1080px;
+    height: 650px;
     .logo{
-      width: 112px;
-      height: 18px;
+      width: 68px;
+      height: 11px;
       background-size: 100%;
       background-position: center, center;
       background-repeat: no-repeat;
     };
     .main-logo{
-      width: 781px;
-      height: 482px;
+      width: 470px;
+      height: 290px;
       background-size: 100%;
       background-position: center, center;
       background-repeat: no-repeat;
@@ -32,17 +35,18 @@
     .button-wrapper{
       align-items: center;
       width: 100%;
-      height: 150px;
+      height: 90px;
       display: flex;
       justify-content: space-around;
       flex-direction: column;
     .button{
+      cursor: pointer;
       border: none;
       align-items: center;
       display: flex;
       justify-content: center;
-      width: 387px;
-      height: 60px;
+      width: 230px;
+      height: 35px;
       background-color:  #62A1EB;
       border-radius: 8px;
   

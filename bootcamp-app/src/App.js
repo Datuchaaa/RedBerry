@@ -10,12 +10,12 @@ import Internalpage from './pages/internalpage/Internalpage';
 function App() {
   return (
     <div className="App">
-      {/* <Main/> */}
-      {/* <Add/> */}
-      {/* <Records/> */}
-      {/* <Laptopform/> */}
-      {/* <Finish/> */}
+      <Main/>
+      <Add/>
+      <Laptopform/>
+      <Records/>
       <Internalpage/>
+      <Finish/>
     </div>
   );
 }
