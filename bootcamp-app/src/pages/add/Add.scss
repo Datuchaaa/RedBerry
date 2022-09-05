@@ -9,6 +9,7 @@
     height: 690px;
     padding-top: 30px;
     
+    
     .back-btn{
       cursor: pointer;
       top: 3%;
@@ -35,6 +36,7 @@
       height: 33px;
       p{
         font-size: 11px;
+        font-weight: 800;
       }
     }
    
@@ -43,12 +45,7 @@
       border-bottom: solid 1px black;
       transition: 0.3s ease-in-out;
     }
-    .staf-fields{
-      width: 735px;
-      height: 583px;
-      background-color: #FFFFFF;
-      border-radius: 11px;
-    }
+   
     .logo-bottom{
       background-position: center center;
       background-repeat: no-repeat;
@@ -62,7 +59,71 @@
       justify-content: center;
       flex-direction: column;
       align-items: center;
+      .name-wrapper{
+        display: flex;
+        justify-content: space-between;
+      }
+      .staf-fields{
+        padding-left: 60px;
+        padding-right: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 550px;
+        height: 583px;
+        background-color: #FFFFFF;
+        border-radius: 11px;
+        span{
+          font-size: 10px;
+          margin-top: 5px;
+          color: rgba(0, 0, 0, 0.6);
+        }
+        p{
+          font-weight: 800;
+          font-size: 15px;
+        }
+        .form{
+          width: 270px;
+          height: 80px;
+          // background-color: aqua;
+          label{
+            display: flex;
+            flex-direction: column;
+           
+          }
+        }
+        .labalemail{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+        .selector-wrapper{
+          display: flex;
+          flex-direction: column;
+        }
+        .next-button-wrapepr{
+          display: flex;
+          justify-content: right;
+          align-items: center;
+          .next{
+            width: 105px;
+            height: 35px;
+            color: #FFFFFF;
+            font-size: 12px;
+            background-color: #62A1EB;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 8px;
+          }
+        }
+        
+      }
       
+    }
+    select{
+      width: 100%;
     }
     .nav-wrapper{
       display: flex;

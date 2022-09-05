@@ -8,6 +8,7 @@ import Laptopform from "./pages/laptopForm/Laptopform";
 import Finish from "./pages/finish/Finish";
 import Internalpage from "./pages/internalpage/Internalpage";
 
+
 function App() {
   return (
     <div className="App">

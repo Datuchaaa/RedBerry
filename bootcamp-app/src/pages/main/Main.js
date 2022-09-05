@@ -16,14 +16,17 @@ function Main() {
               style={{ backgroundImage: `url(./images/Group1.png)` }}
             ></div>
             <div className="button-wrapper">
-              <button className="main-button-add button">
-                <p>
-                  <Link to="/records"> ჩანაწერის დამატება</Link>
-                </p>
-              </button>
-              <button className="main-button-list button">
-                <p>ჩანაწერების სია</p>
-              </button>
+              <Link to="/add">
+                <button className="main-button-add button">
+                  <p> ჩანაწერის დამატება</p>
+                </button>
+              </Link>
+
+              <Link to="/records">
+                <button className="main-button-list button">
+                  <p>ჩანაწერების სია</p>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
